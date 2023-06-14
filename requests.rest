@@ -1,0 +1,17 @@
+POST http://localhost:3003/auth/signin
+  content-type: application/json
+  
+  {
+    "email": "test@example.com",
+    "password": "randomPassword"
+  }
+
+###
+
+POST http://localhost:3003/auth/signup
+  content-type: application/json
+  
+  {
+    "email": "test@example.com",
+    "password": "randomPassword"
+  }
